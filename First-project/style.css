@@ -1,0 +1,220 @@
+body {
+    font-family: Onyx, sans-serif;
+    background-color: #0f1018;
+}
+
+button {
+    padding: 45px 45px;
+    border-radius: 100px;
+    background: #f1cdb3;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    transition: 0.4s ease-in-out;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    font-size: 20px;
+    font-family: LT Superior, sans-serif;
+    color: white;
+    background-color: rgba(40,40,40,0.8);
+    /*text-align: center;*/
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header_logo {
+    width: 4%;
+    height: 4%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.header_logo-text {
+    font-family: "LT Superior", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    letter-spacing: 0.06em;
+    /*padding-top: 15px;*/
+    position: absolute;
+    top: 8px;
+    left: 110px;
+}
+
+.header_list {
+    display: flex;
+    column-gap: 35px;
+    padding: 35px 0 20px 0;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    list-style: none;
+}
+
+.header_list-item {
+    color: white;
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+.header_link:hover {
+    color: yellow;
+}
+
+/*--------------------------------------------*/
+
+.title {
+    background-image: url(img/title-background-image.jpg);/
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    /*border-top: 5px solid black;*/
+    padding: 120px 20px 120px 20px;
+}
+
+.title_content {
+    display: flex;
+    justify-content: center;
+}
+
+.title_main-name {
+    font-family: Bahnschrift Light, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: #0f1018 0 8px 8px;
+    font-size: 4em;
+    padding-top: 50px;
+}
+
+.title_button {
+    font-size: 25px;
+    font-family: "LT Superior", sans-serif;
+    color: white;
+    background-color: #212121;
+    padding: 15px 15px 15px 15px;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.title_button:hover {
+    background-color: white;
+    color: black;
+}
+/*---------------------------------------*/
+
+.rock-kinds {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.rock-kinds_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+}
+
+.rock-kinds_table {
+    table-layout: fixed;
+}
+
+.rock-kinds_table-caption {
+    font-size: 30px;
+    font-family: "Ubuntu Bold", sans-serif;
+    color: beige;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.rock-kinds_th {
+    display: flex;
+    /*justify-content: space-between;*/
+    font-size: 30px;
+    font-family: "LT Superior", sans-serif;
+    color: bisque;
+    margin-left: 8em;
+    column-span: 4;
+    width: 100%;
+}
+
+.rock-kinds_img {
+    width: 40%;
+    height: 40%;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    margin-left: 20em;
+    margin-bottom: 3em;
+    border: 4px solid black;
+}
+
+/*---------------------------------------*/
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid white;
+}
+
+.footer_content {
+    display: grid;
+    background-color: #8c949c;
+    padding-bottom: 170px;
+}
+
+.footer_list {
+    display: flex;
+    column-gap: 60px;
+    padding: 46px 0 50px 0;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    list-style: none;
+}
+
+.footer_list-item {
+    font-size: 22px;
+    font-family: "Bahnschrift Light", sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px 0 0 0;
+    text-shadow: black 0 0 20px;
+}
+
+
