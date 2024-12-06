@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="1 week" />
+    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="1 week">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kentixx/Front-end.git",
+    "url": "https://github.com/Kentixx/Front-IT.git",
     "accountId": "a7b7a90a-cb2f-42f3-b131-c13beb9913c4"
   }
 }]]></component>
@@ -50,8 +52,9 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programs/GitFlow/Front",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Programs/GitFlow/Front-IT/First-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +92,8 @@
       <workItem from="1732888190176" duration="5375000" />
       <workItem from="1733049227709" duration="779000" />
       <workItem from="1733050129674" duration="19848000" />
+      <workItem from="1733307754708" duration="326000" />
+      <workItem from="1733309297799" duration="78000" />
     </task>
     <servers />
   </component>
