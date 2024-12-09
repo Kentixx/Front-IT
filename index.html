@@ -5,39 +5,52 @@
     <link rel="shortcut icon" href="img/rock.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-faces.css">
-    <title>Магазин рока</title>
+    <title>Rock Hub</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header>
             <div class="header_content">
-                <img class="header_logo" alt="rock-shop" src="img/rock-logo.jpg">
-                <p class="header_logo-text">
-                    Магазин Рока
-                </p>
-                <nav>
-                    <ul class="header_list">
-                        <li class="header_list-item">
-                            <a href="#main" class="header_link"> Главная </a></li>
-                        <li class="header_list-item">
-                            <a href="#" class="header_link"> Товары </a></li>
-                        <li class="header_list-item">
-                            <a href="#rock-kinds" class="header_link"> Рок-направления </a></li>
-                        <li class="header_list-item">
-                            <a href="#" class="header_link"> Статьи </a></li>
-                        <li class="header_list-item">
-                            <a href="#footer" class="header_link"> Контакты </a></li>
-                    </ul>
-                </nav>
+                <div class="header_logo">
+                    <img class="header_logo-image" alt="rock-shop" src="img/rock-logo.jpg">
+                    <p class="header_logo-text">
+                        Rock Hub
+                    </p>
+                </div>
+                <div class="header_nav">
+                    <nav>
+                        <input id="burger-toggle" type="checkbox">
+                        <label class="burger-label" for="burger-toggle">
+                            <span></span>
+                        </label>
+                        <ul class="header_list">
+                            <li class="header_list-item">
+                                <a href="#main" class="header_link"> Главная </a></li>
+                            <li class="header_list-item">
+                                <a href="form.html" class="header_link"> Войти </a></li>
+                            <li class="header_list-item">
+                                <a href="#" class="header_link"> Товары </a></li>
+                            <li class="header_list-item">
+                                <a href="#rock-kinds" class="header_link"> Рок-направления </a></li>
+                            <li class="header_list-item">
+                                <a href="#" class="header_link"> Статьи </a></li>
+                            <li class="header_list-item">
+                                <a href="#footer" class="header_link"> Контакты </a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+
         </header>
+
+
         <main id="main">
             <section class="title" id="title">
                 <div class="title_content">
                     <h1 class="title_main-name">Всё, что нужно для истинного ценителя рока</h1>
                 </div>
                 <div class="title-content"  style="align-content: center">
-                    <button class="title_button">
+                    <button class="title_button" type="button" onclick="window.location.href='form.html'">
                         Сделать заказ
                     </button>
                 </div>
@@ -79,7 +92,8 @@
                 </div>
             </section>
         </main>
-        <footer class="footer" id="footer">
+
+        <footer id="footer">
             <div class="footer_content">
                 <ul class="footer_list">
                     <li class="footer_list-item">
