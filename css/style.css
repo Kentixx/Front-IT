@@ -217,6 +217,7 @@ header {
 
 .title_main-name::after {
     content: " истинного ценителя рока";
+    text-align: center;
     text-transform: uppercase;
     color: #5c25ef;
 }
