@@ -2,60 +2,86 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/rock.jpg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-faces.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-faces.css">
     <title>Rock Hub</title>
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <div class="header_content">
+            <nav class="header_content">
                 <div class="header_logo">
-                    <img class="header_logo-image" alt="rock-shop" src="img/rock-logo.jpg">
-                    <p class="header_logo-text">
-                        Rock Hub
-                    </p>
+                    <a href="#main">
+                        <img class="header_logo-image" alt="Rock-Hub" src="img/rock-logo.png">
+                    </a>
+                    <h1 class="header_text">
+                        Rock
+                    </h1>
                 </div>
-                <div class="header_nav">
-                    <nav>
-                        <input id="burger-toggle" type="checkbox">
-                        <label class="burger-label" for="burger-toggle">
-                            <span></span>
-                        </label>
-                        <ul class="header_list">
-                            <li class="header_list-item">
-                                <a href="#main" class="header_link"> Главная </a></li>
-                            <li class="header_list-item">
-                                <a href="form.html" class="header_link"> Войти </a></li>
-                            <li class="header_list-item">
-                                <a href="#" class="header_link"> Товары </a></li>
-                            <li class="header_list-item">
-                                <a href="#rock-kinds" class="header_link"> Рок-направления </a></li>
-                            <li class="header_list-item">
-                                <a href="#" class="header_link"> Статьи </a></li>
-                            <li class="header_list-item">
-                                <a href="#footer" class="header_link"> Контакты </a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
+                <input id="burger-toggle" type="checkbox">
+                    <label class="burger-label" for="burger-toggle">
+                        <span></span>
+                    </label>
+                <ul class="header_list">
+                    <li class="header_list-item">
+                        <a href="#main" class="header_link"> Главная </a></li>
+                    <li class="header_list-item">
+                        <a href="#" class="header_link"> Товары </a></li>
+                    <li class="header_list-item">
+                        <a href="#" class="header_link"> Статьи </a></li>
+                    <li class="header_list-item">
+                        <a href="#footer" class="header_link"> Контакты </a></li>
+                    <li class="header_list-item">
+                        <a href="form.html" class="header_link"> Войти </a></li>
+                </ul>
+            </nav>
         </header>
 
 
         <main id="main">
             <section class="title" id="title">
                 <div class="title_content">
-                    <h1 class="title_main-name">Всё, что нужно для истинного ценителя рока</h1>
-                </div>
-                <div class="title-content"  style="align-content: center">
+                    <h1 class="title_main-name">Всё, что нужно для</h1>
+                    <h2 class="title_text"> Здесь собрались самые лютые фанаты тяжёлого рока и металла! </h2>
+                    <h2 class="title_text"> Хоть эти направления
+                    уже не совсем являются современными, миллионы людей помогают им держаться на плову и
+                    сохранять культовость многих легендарных групп и рок-исполнителей.</h2>
                     <button class="title_button" type="button" onclick="window.location.href='form.html'">
                         Сделать заказ
                     </button>
                 </div>
             </section>
 
+
+            <section id="facts">
+                <div class="facts">
+                    <h1 class="facts_title">
+                        Интересные факты
+                    </h1>
+                    <div class="facts-items">
+                        <div class="fact_item1">
+                            <img id="fact_item-img1" alt="Ros-Stuart" src="img/main/rod-stuart.jpg">
+                            <div class="fact_item-text"> Самый масштабный рок-концерт в мировой истории был проведён
+                                31 декабря 1994 года на знаменитом пляже Рио-де-Жанейро
+                                Копакабана с выступлением знаменитой рок-звезды <strong>Рода Стюарта</strong>.
+                                Организатором новогоднего шоу выступил MTV.
+                                А послушать легендарные хиты собралось более 4-х миллионов поклонников.
+                                Это абсолютный рекорд, который даже попал в "Книгу Рекордов Гиннесса"!</div>
+                        </div>
+                        <div class="fact_item2">
+                            <img id="fact_item-img2" alt="Ros-Stuart" src="img/main/rod-stuart.jpg">
+                            <div class="fact_item-text"> Самый масштабный рок-концерт в мировой истории был проведён
+                                31 декабря 1994 года на знаменитом пляже Рио-де-Жанейро
+                                Копакабана с выступлением знаменитой рок-звезды <strong>Рода Стюарта</strong>.
+                                Организатором новогоднего шоу выступил MTV.
+                                А послушать легендарные хиты собралось более 4-х миллионов поклонников.
+                                Это абсолютный рекорд, который даже попал в "Книгу Рекордов Гиннесса"!</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="rock-kinds" id="rock-kinds">
                 <div class="rock_kinds_content">
                     <table class="rock-kinds_table">
@@ -97,9 +123,9 @@
             <div class="footer_content">
                 <ul class="footer_list">
                     <li class="footer_list-item">
-                        254 Doyle Underpass, Brendastad, Nevada 27629</li>
+                        г. Минск, пр-т Независимости, 1004</li>
                     <li class="footer_list-item">
-                        +375 (29) 000-00-00</li>
+                        +375 (29) 555-35-35</li>
                     <li class="footer_list-item">
                         example@gmail.com</li>
                 </ul>

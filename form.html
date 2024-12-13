@@ -3,38 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="img/rock.jpg">
-  <link rel="stylesheet" href="form.css">
-  <link rel="stylesheet" href="font-faces.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/font-faces.css">
   <title>Rock Hub</title>
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-      <div class="header_content">
+    <header>
+      <nav class="header_content">
         <div class="header_logo">
-          <img class="header_logo-image" alt="rock-shop" src="img/rock-logo.jpg">
-          <p class="header_logo-text">
-            Rock Hub
-          </p>
+          <img class="header_logo-image" alt="rock-hub" src="img/rock-logo.png">
+          <h1 class="header_text">
+            Rock
+          </h1>
         </div>
-
-        <div class="header_nav">
-          <nav>
-            <input id="burger-toggle" type="checkbox">
-            <label class="burger-label" for="burger-toggle">
-              <span></span>
-            </label>
-            <ul class="header_list">
-              <li class="header_list-item">
-                <a href="index.html" class="header_link"> Главная страница </a></li>
-              <li class="header_list-item">
-                <a href="#" class="header_link"> Товары </a></li>
-              <li class="header_list-item">
-                <a href="#footer" class="header_link"> Контакты </a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+        <input id="burger-toggle" type="checkbox">
+        <label class="burger-label" for="burger-toggle">
+          <span></span>
+        </label>
+        <ul class="header_list">
+          <li class="header_list-item">
+            <a href="index.html" class="header_link"> Главная страница </a></li>
+          <li class="header_list-item">
+            <a href="#" class="header_link"> Уже есть аккаунт? </a></li>
+        </ul>
+      </nav>
     </header>
 
     <main id="main">
@@ -64,7 +57,6 @@
             </fieldset>
         </form>
       </div>
-
       <div class="goods">
         <div class="goods_content">
 
@@ -72,18 +64,19 @@
       </div>
     </main>
 
-    <footer class="footer" id="footer">
+    <footer class="footer">
       <div class="footer_content">
         <ul class="footer_list">
           <li class="footer_list-item">
-            254 Doyle Underpass, Brendastad, Nevada 27629</li>
+            г. Минск, пр-т Независимости, 1004</li>
           <li class="footer_list-item">
-            +375 (29) 000-00-00</li>
+            +375 (29) 555-35-35</li>
           <li class="footer_list-item">
             example@gmail.com</li>
         </ul>
       </div>
     </footer>
+
   </div>
 </body>
 </html>

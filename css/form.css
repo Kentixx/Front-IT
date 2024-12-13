@@ -34,62 +34,65 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 130px;
-    font-size: 20px;
-    font-family: LT Superior, sans-serif;
-    color: white;
+    height: auto;
     background-color: rgba(20,20,20,0.5);
-    text-align: center;
 }
 
 .header_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
-    padding-top: 5px;
 }
 
 .header_logo {
     display: flex;
     position: relative;
+    height: 70%;
+    margin-right: auto;
+    margin-left: 0.5em;
+    align-items: center;
     /*top: 2.5%;*/
     left: 1.5em;
 }
 
 .header_logo-image {
-    width: 65px;
-    height: 65px;
-
-    position: relative;
-    top: 1.5em;
-    left: 0;
-    margin-right: 10px;
+    width: 3.2em;
+    height: 3em;
 }
 
-.header_logo-text {
-    font-family: "LT Superior", sans-serif;
-    font-size: 38px;
-    font-weight: bold;
+.header_text {
+    position: relative;
+    font-family: "Monstserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
     color: white;
-    text-align: center;
-    letter-spacing: 0.06em;
-
+    letter-spacing: 0.08em;
     white-space: nowrap;
-    position: relative;
-    padding-top: 4px;
-    padding-left: 10px;
+    margin-left: 0.5em;
+    transition: 0.4s ease-in-out;
+    z-index: -2;
+}
+.header_text::after {
+    content: "Hub";
+    color: #3500D3;
+    transition: 0.4s ease-in-out;
 }
 
-.header_nav {
-    display: flex;
-    position: relative;
+.header_text:hover {
+    cursor: default;
+    color: #3500D3;
+}
+.header_text:hover::after {
+    color: white;
+    cursor: default;
 }
 
 .header_list {
     display: flex;
-    gap: 35px;
-    justify-content: right;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-right: 50px;
     margin-left: 20px;
     text-decoration: none;
@@ -97,41 +100,43 @@ header {
 }
 
 .header_list-item {
+    font-family: 'Monstserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
     color: white;
     white-space: nowrap;
+    padding: 15px 15px;
+    border-radius: 40px;
+    transition: 0.5s ease-out;
 }
 
 .header_link {
     color: white;
-    position: relative;
-    transition: 0.4s ease-in-out;
     text-decoration: none;
 }
 
-.header_link:hover {
-    color: yellow;
+.header_list-item:hover {
+    background-color: #2c009f;
 }
 
-/*---------------------------------------*/
-
-.burger-label {
-    display: none;
-}
-
-.header-list {
-    visibility: hidden;
-}
+/*--------------------------------------------*/
 
 #burger-toggle {
     display: none;
 }
 
-@media screen and (max-width: 750px) {
+@media only screen and (max-width: 980px) {
+    .header_text {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
     .burger-label {
         position: relative;
-        margin-right: 70px;
+        margin-right: 35px;
         margin-top: 15px;
-        margin-left: 90px;
+        margin-left: 15%;
         display: block;
         height: 40px;
         width: 40px;
@@ -163,18 +168,19 @@ header {
     }
 
     .header_list {
-        display: none;
         position: fixed;
-        top: 80px;
-        right: 0;
+        top: -30px;
+        right: -400px;
+        height: 100%;
         z-index: -1;
         font-size: 23px;
         flex-direction: column;
         justify-content: right;
+        flex-wrap: nowrap;
         text-align: center;
-        background-color: rgba(5,5,5,0.9);
-        padding: 30px;
-
+        background-color: rgba(5,5,5,0.8);
+        padding: 100px 30px 20px 30px;
+        transition: 0.3s;
     }
 
     #burger-toggle:checked ~ .burger-label::after {
@@ -193,25 +199,26 @@ header {
     }
 
     #burger-toggle:checked ~ ul {
-        transition: 0.3s;
-        visibility: visible;
         display: flex;
+        right: -44px;
+        width: 40%;
     }
 }
 
 /*-----------------------------------------------*/
 
+.main {
+    height: auto;
+}
+
 .form {
     width: 100%;
-    height: 600px;
+    height: auto;
     position: relative;
     z-index: -1;
     display: block;
-    padding: 5em 0 4em;
-    background-image: url(img/title-background-image.jpg);/
-    background-size: cover;
-    background-blend-mode: color-dodge;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5em 0 3em 0;
+    background-color: #0C0032;
 }
 
 .form_container {
@@ -228,7 +235,7 @@ header {
     width: 40%;
 
     background-color: rgba(0, 0, 0, 0.8);
-    background-image: url("img/registration.webp");
+    background-image: url("../img/registration.webp");
     background-size: cover;
     background-position: 0 0;
     background-blend-mode: color-dodge;
@@ -286,7 +293,6 @@ header {
 /*---------------------------------------------*/
 
 footer {
-    border-top: 2px solid white;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -295,30 +301,35 @@ footer {
 }
 
 .footer_content {
-    display: grid;
     width: 100%;
     position: absolute;
-    background-image: url(img/rock-footer.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-blend-mode: color-dodge;
     padding-bottom: 2em;
 }
 
+
 .footer_list {
     display: flex;
     flex-direction: column;
-    column-gap: 60px;
+    column-gap: 2em;
     text-decoration: none;
     list-style: none;
     margin-left: 50px;
+    margin-top: 90px;
 }
 
 .footer_list-item {
     text-align: right;
     color: white;
-    font-size: 22px;
-    font-family: "LT Superior", sans-serif;
-    font-weight: bold;
+    font-size: 15px;
+    font-family: "Monstserrat Alternates", sans-serif;
+    font-weight: 400;
     padding: 10px 15px 0 0;
+    transition: 0.4s ease;
+}
+
+.footer_list-item:hover {
+    margin-right: 20px;
 }

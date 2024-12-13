@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Bahnschrift Light';
+    src: url('../fonts/Bahnschrift-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LT Superior';
+    src: url('../fonts/LTSuperior-Regular.otf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Bold';
+    src: url('../fonts/Ubuntu-B.ttf') format('truetype');
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Monstserrat Alternates';
+    src: url('../fonts/MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monstserrat Alternates';
+    src: url('../fonts/MontserratAlternates-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monstserrat Alternates';
+    src: url('../fonts/MontserratAlternates-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monstserrat Alternates';
+    src: url('../fonts/MontserratAlternates-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Forum';
+    src: url('../fonts/Forum-Regular.ttf') format('truetype');
+    font-style: normal;
+}

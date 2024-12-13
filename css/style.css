@@ -1,0 +1,427 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f1018;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(20,20,20,0.8);
+}
+
+.header_content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.header_logo {
+    display: flex;
+    position: relative;
+    height: 70%;
+    margin-right: auto;
+    margin-left: 0.5em;
+    align-items: center;
+    /*top: 2.5%;*/
+    left: 1.5em;
+}
+
+.header_logo-image {
+    width: 3.2em;
+    height: 3em;
+}
+
+.header_text {
+    position: relative;
+    font-family: "Monstserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+    margin-left: 0.5em;
+    transition: 0.4s ease-in-out;
+    z-index: -2;
+}
+.header_text::after {
+    content: "Hub";
+    color: #3500D3;
+    transition: 0.4s ease-in-out;
+}
+
+.header_text:hover {
+    cursor: default;
+    color: #3500D3;
+}
+.header_text:hover::after {
+    color: white;
+    cursor: default;
+}
+
+.header_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header_list-item {
+    width: auto;
+    font-family: 'Monstserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    padding: 15px 15px;
+    border-radius: 40px;
+    transition: 0.3s ease-out;
+}
+
+.header_link {
+    color: white;
+    text-decoration: none;
+}
+
+.header_list-item:hover {
+    background-color: #2c009f;
+}
+
+/*--------------------------------------------*/
+
+#burger-toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+    .header_text {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .burger-label {
+        position: relative;
+        margin-right: 35px;
+        margin-top: 15px;
+        margin-left: 15%;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+
+    .burger-label::after, .burger-label::before, .burger-label span {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    .burger-label::before {
+        content: "";
+        top: 0;
+    }
+
+    .burger-label::after {
+        content: "";
+        top: 24px;
+    }
+
+    .burger-label span {
+        position: absolute;
+        top: 12px;
+    }
+
+    .header_list {
+        position: fixed;
+        top: -30px;
+        right: -400px;
+        height: 100%;
+        z-index: -1;
+        font-size: 23px;
+        flex-direction: column;
+        justify-content: right;
+        flex-wrap: nowrap;
+        text-align: center;
+        background-color: rgba(5,5,5,0.8);
+        padding: 100px 30px 20px 30px;
+        transition: 0.3s;
+    }
+
+    #burger-toggle:checked ~ .burger-label::after {
+        transform: rotate(45deg);
+        top: 12px;
+    }
+
+    #burger-toggle:checked ~ .burger-label::before {
+        transform: rotate(-45deg);
+        top: 12px;
+    }
+
+    #burger-toggle:checked ~ .burger-label span {
+        transform: rotate(-45deg);
+        top: 12px;
+    }
+
+    #burger-toggle:checked ~ ul {
+        width: 40%;
+        display: flex;
+        right: -44px;
+    }
+}
+
+/*--------------------------------------------*/
+
+.title {
+    background-image: url(../img/title-background-image.jpg);/
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(9, 0, 41, 0.78);
+    background-position: center;
+    padding: 12% 30px 17% 30px;
+}
+
+.title_content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title_main-name {
+    font-family: Unbounded, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: #0f1018 0 3px 3px;
+    font-size: 55px;
+    transition: .7s ease-in-out;
+}
+
+.title_main-name::after {
+    content: " истинного ценителя рока";
+    text-transform: uppercase;
+    color: #5c25ef;
+}
+
+.title_main-name:hover, .title_main-name:hover::after {
+    font-size: 60px;
+    transition: .7s ease-in-out;
+}
+
+.title_text {
+    font-family: Monstserrat Alternates, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 10%;
+}
+
+.title_button {
+    padding: 1em 2em;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.03em;
+    font-family: Unbounded, sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #200595;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.title_button:hover {
+    background-color: white;
+    color: #200595;
+}
+
+@media only screen and (max-width: 980px) {
+    .title_main-name {
+        font-size: 45px;
+    }
+
+    .title_main-name:hover, .title_main-name:hover::after {
+        font-size: 48px;
+        transition: .7s ease-in-out;
+    }
+
+    .title_text {
+        display: none;
+    }
+
+    .title_button {
+        padding: .7em 1em;
+        font-size: 1.5em;
+    }
+}
+
+/*---------------------------------------*/
+
+.facts {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.facts_title {
+    justify-content: center;
+    font-size: 35px;
+    color: black;
+    font-family: Unbounded, sans-serif;
+    font-weight: 600;
+}
+
+.facts-items {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.facts_item1 {
+    width: 100%;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+    border: solid 2px black;
+}
+
+#fact_item-img1 {
+    width: 292px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.fact_item-text {
+    font-family: Forum, sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+}
+
+#fact_item-img2 {
+    width: 292px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+/*---------------------------------------*/
+
+.rock-kinds {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.rock-kinds_content {
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #212121;
+}
+
+.rock-kinds_table {
+    table-layout: fixed;
+}
+
+.rock-kinds_table-caption {
+    font-size: 30px;
+    font-family: "Ubuntu Bold", sans-serif;
+    color: beige;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.rock-kinds_th {
+    display: flex;
+    /*justify-content: space-between;*/
+    font-size: 30px;
+    font-family: "LT Superior", sans-serif;
+    color: bisque;
+    margin-left: 40%;
+    column-span: 4;
+    width: 100%;
+}
+
+.rock-kinds_img {
+    width: 40%;
+    height: 40%;
+    position: inherit;
+
+
+    margin-left: 40%;
+    margin-bottom: 3em;
+    border: 4px solid black;
+}
+
+/*---------------------------------------*/
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer_content {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    padding-bottom: 2em;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2em;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.footer_list-item {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    font-family: "Monstserrat Alternates", sans-serif;
+    font-weight: 400;
+    padding: 10px 15px 0 0;
+    transition: 0.4s ease;
+}
+
+.footer_list-item:hover {
+    margin-right: 20px;
+}
+

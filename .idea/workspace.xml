@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="1 week">
-      <change afterPath="$PROJECT_DIR$/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="2 week">
+      <change afterPath="$PROJECT_DIR$/fonts/Forum-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MontserratAlternates-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MontserratAlternates-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MontserratAlternates-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MontserratAlternates-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Unbounded-VariableFont_wght.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-faces.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-faces.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/user/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/22.11.0/node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,6 +84,9 @@
       <recent name="D:\Programs\GitFlow\Front\First-project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\GitFlow\Front-IT\img\main" />
+      <recent name="D:\Programs\GitFlow\Front-IT\fonts" />
+      <recent name="D:\Programs\GitFlow\Front-IT\css" />
       <recent name="D:\Programs\GitFlow\Front\First-project" />
     </key>
   </component>
@@ -101,8 +111,19 @@
       <workItem from="1733050129674" duration="19848000" />
       <workItem from="1733307754708" duration="326000" />
       <workItem from="1733309297799" duration="78000" />
-      <workItem from="1733663883563" duration="28992000" />
+      <workItem from="1733663883563" duration="29364000" />
+      <workItem from="1733832961253" duration="6391000" />
+      <workItem from="1734103352551" duration="15264000" />
     </task>
+    <task id="LOCAL-00001" summary="2 week">
+      <option name="closed" value="true" />
+      <created>1733766583037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733766583038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 week" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 week" />
+    <MESSAGE value="2 week" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 week" />
   </component>
 </project>
