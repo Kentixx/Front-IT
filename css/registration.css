@@ -1,0 +1,126 @@
+.registration {
+    width: 100%;
+    height: 100%;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.registration_form {
+    top: 17%;
+    left: 17%;
+    width: 30%;
+    min-width: 340px;
+    background-color: #212121;
+    border: 2px #2c009f solid;
+    border-radius: 35px;
+    padding: .5em;
+}
+
+.registration_form-title {
+    font-family: Monstserrat Alternates, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+
+.registration_form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 35px;
+    margin: 25px 20px;
+    border: #2c009f 2px solid;
+    border-radius: 15px;
+    box-shadow: black 0 0 20px;
+}
+
+.registration_form .input-box:hover, .footer_form .input-box:active {
+    border-color: #69ff24;
+    background-color: #131313;
+}
+
+.registration_form .remember {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: 1em 1em;
+}
+
+.registration_form-button {
+    position: relative;
+    width: 100%;
+    font-family: Monstserrat Alternates, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #131313;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 14px;
+    margin-top: 1em;
+    transition: 0.4s;
+}
+
+.registration_form-button:hover {
+    background-color: white;
+    color: #200595;
+}
+
+.registration_form-button:active {
+    background-color: #69ff24;
+}
+
+/*------------------------------------------------*/
+
+.footer_content-registration {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .registration_footer {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .registration {
+        margin-top: 8em;
+    }
+
+    .footer_content-registration {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .footer_list {
+        display: none;
+    }
+
+    .footer_list-item:hover {
+        margin-right: 20px;
+    }
+
+    .footer_list-item {
+        font-size: 13px;
+    }
+}

@@ -61,3 +61,20 @@
     src: url('../fonts/Forum-Regular.ttf') format('truetype');
     font-style: normal;
 }
+
+/*-----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+

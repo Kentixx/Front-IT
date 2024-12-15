@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/rock.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/font-faces.css">
+    <title>Rock Hub</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <nav class="header_content">
+            <div class="header_logo">
+                <a href="index.html">
+                    <img class="header_logo-image" alt="Rock-Hub" src="img/rock-logo.png">
+                </a>
+                <a href="index.html" id="header_text-link">
+                    <h1 class="header_text"> Rock </h1>
+                </a>
+            </div>
+            <input id="burger-toggle" type="checkbox">
+            <label class="burger-label" for="burger-toggle">
+                <span></span>
+            </label>
+            <ul class="header_list">
+                <li class="header_list-item">
+                    <a href="index.html" class="header_link"> На главную </a></li>
+                <li class="header_list-item">
+                    <a href="index.html/#" class="header_link"> Товары </a></li>
+                <li class="header_list-item">
+                    <a href="index.html/#" class="header_link"> Статьи </a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="main">
+        <section>
+            <div class="registration">
+                <div class="registration_form">
+                    <form action="#" method="POST" class="footer_form-container">
+                        <h1 class="registration_form-title">
+                            Регистрация аккаунта
+                        </h1>
+
+                        <div class="input-box">
+                            <input type="text" placeholder="Никнейм" class="input-text" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Email" class="input-text" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Номер телефона" class="input-text" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Пароль" class="input-text" required>
+                        </div>
+                        <div class="remember">
+                            <label><input type="checkbox" class="footer_form-input-checkbox">
+                                Запомнить меня на этом устройстве</label>
+                        </div>
+
+                        <button type="submit" class="registration_form-button">
+                            Зарегистрироваться
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="registration_footer">
+        <div class="footer_content-registration">
+            <ul class="footer_list">
+                <li class="footer_list-item">
+                    г. Минск, пр-т Независимости, 1004</li>
+                <li class="footer_list-item">
+                    +375 (29) 555-35-35</li>
+                <li class="footer_list-item">
+                    rockhub-site@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
