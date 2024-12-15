@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="forms and facts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="another one" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +104,7 @@
       <workItem from="1733832961253" duration="6391000" />
       <workItem from="1734103352551" duration="15833000" />
       <workItem from="1734120149664" duration="2235000" />
-      <workItem from="1734264021036" duration="21349000" />
+      <workItem from="1734264021036" duration="21670000" />
     </task>
     <task id="LOCAL-00001" summary="2 week">
       <option name="closed" value="true" />
@@ -143,7 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734279749884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="another one">
+      <option name="closed" value="true" />
+      <created>1734288804791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734288804792</updated>
+    </task>
+    <task id="LOCAL-00006" summary="another one">
+      <option name="closed" value="true" />
+      <created>1734288868762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734288868762</updated>
+    </task>
+    <task id="LOCAL-00007" summary="another one">
+      <option name="closed" value="true" />
+      <created>1734289007659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734289007659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +173,7 @@
     <MESSAGE value="2 week" />
     <MESSAGE value="cosmetic changes" />
     <MESSAGE value="forms and facts" />
-    <option name="LAST_COMMIT_MESSAGE" value="forms and facts" />
+    <MESSAGE value="another one" />
+    <option name="LAST_COMMIT_MESSAGE" value="another one" />
   </component>
 </project>
