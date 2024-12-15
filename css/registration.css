@@ -42,6 +42,7 @@
     border: #2c009f 2px solid;
     border-radius: 15px;
     box-shadow: black 0 0 20px;
+    transition: 0.3s ease;
 }
 
 .registration_form .input-box:hover, .footer_form .input-box:active {
@@ -100,6 +101,7 @@
 
     .registration {
         margin-top: 8em;
+        scale: 0.9;
     }
 
     .footer_content-registration {

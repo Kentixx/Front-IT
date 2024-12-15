@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="cosmetic changes">
-      <change afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Nunito-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Rubik-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
+    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="forms and facts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-faces.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-faces.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +77,7 @@
       <recent name="D:\Programs\GitFlow\Front\First-project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\GitFlow\Front-IT\html" />
       <recent name="D:\Programs\GitFlow\Front-IT\fonts" />
       <recent name="D:\Programs\GitFlow\Front-IT\img\main" />
       <recent name="D:\Programs\GitFlow\Front-IT\css" />
@@ -114,7 +109,7 @@
       <workItem from="1733832961253" duration="6391000" />
       <workItem from="1734103352551" duration="15833000" />
       <workItem from="1734120149664" duration="2235000" />
-      <workItem from="1734264021036" duration="15275000" />
+      <workItem from="1734264021036" duration="21349000" />
     </task>
     <task id="LOCAL-00001" summary="2 week">
       <option name="closed" value="true" />
@@ -140,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734120203625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="forms and facts">
+      <option name="closed" value="true" />
+      <created>1734279749884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734279749884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +153,7 @@
     <MESSAGE value="1 week" />
     <MESSAGE value="2 week" />
     <MESSAGE value="cosmetic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="cosmetic changes" />
+    <MESSAGE value="forms and facts" />
+    <option name="LAST_COMMIT_MESSAGE" value="forms and facts" />
   </component>
 </project>
