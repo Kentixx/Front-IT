@@ -380,7 +380,7 @@ header {
     font-family: Nunito, sans-serif;
     font-size: 17px;
     color: white;
-    text-align: center;
+    text-align: justify;
     margin-top: 15px;
 }
 
@@ -395,7 +395,7 @@ header {
     margin: 20px 30px;
     overflow: hidden;
 
-    padding: 15px;
+    padding: 25px;
     border-radius: 20px;
     background-color: #270385;
     transition: 0.3s ease;
@@ -441,11 +441,23 @@ header {
     .fact_item1, .fact_item2 {
         margin: 0;
         scale: 0.9;
-        padding: 10px;
+        padding: 15px;
     }
 
     .fact_item1:hover, .fact_item2:hover {
         scale: 0.92;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fact_item1, .fact_item2 {
+        margin: 0;
+        scale: 0.8;
+        padding: 10px;
+    }
+
+    .fact_item1:hover, .fact_item2:hover {
+        scale: 0.82;
     }
 }
 
