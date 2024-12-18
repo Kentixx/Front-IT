@@ -326,6 +326,9 @@ header {
     background-color: white;
     width: auto;
     height: auto;
+    padding: 0 4em;
+    margin: 5px;
+    min-width: 200px;
 }
 
 .facts_title {
@@ -335,7 +338,8 @@ header {
     color: black;
     font-family: Unbounded, sans-serif;
     font-weight: 600;
-    margin: .5em 1em;
+    margin: .3em .5em;
+    margin-top: 25px;
 }
 
 .facts-items {
@@ -343,17 +347,24 @@ header {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.fact_item-text {
+    font-family: Nunito, sans-serif;
+    height: 70%;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin-top: 15px;
+}
+
 .fact_item1 {
-    width: auto;
-    height: auto;
-    min-width: 350px;
+    min-width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    margin: 20px 30px;
-    padding: 20px;
+    margin: 10px 5% 10px 0;
+    padding: 25px;
     border: groove 2px black;
     border-radius: 20px;
     background-color: black;
@@ -369,19 +380,9 @@ header {
 #fact_item-img1 {
     width: 70%;
     height: 70%;
-    min-width: 292px;
-    min-height: 200px;
     border-radius: 20px;
     border: 2px solid white;
     box-shadow: 0 0 7px black;
-}
-
-.fact_item-text {
-    font-family: Nunito, sans-serif;
-    font-size: 17px;
-    color: white;
-    text-align: justify;
-    margin-top: 15px;
 }
 
 .fact_item2 {
@@ -391,8 +392,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 15px;
-    margin: 20px 30px;
+    margin: 10px 0 10px 5%;
     overflow: hidden;
 
     padding: 25px;
@@ -409,17 +409,13 @@ header {
 #fact_item-img2 {
     width: 80%;
     height: 70%;
-    min-width: 200px;
-    min-height: 100px;
     border-radius: 20px;
     border: 2px solid black;
 }
 
 #fact_item-img3 {
     width: 85%;
-    height: 60%;
-    min-width: 300px;
-    min-height: 100px;
+    height: 80%;
     border-radius: 20px;
     border: 2px solid white;
 }
@@ -427,20 +423,20 @@ header {
 #fact_item-img4 {
     width: 65%;
     height: 65%;
-    min-width: 250px;
-    min-height: 100px;
     border-radius: 20px;
     border: 2px solid black;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
+    .facts {
+        padding: .5em;
+    }
     .facts-items {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .fact_item1, .fact_item2 {
-        margin: 0;
-        scale: 0.9;
+        margin: .5em;
         padding: 15px;
     }
 
@@ -449,31 +445,16 @@ header {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .fact_item1, .fact_item2 {
-        margin: 0;
-        scale: 0.8;
-        padding: 10px;
-    }
-
-    .fact_item1:hover, .fact_item2:hover {
-        scale: 0.82;
-    }
-}
-
 /*---------------------------------------*/
 
-.rock-kinds {
+.goods {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: #212121;
-}
-
-.rock-kinds_content {
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #212121;
+    width: auto;
+    height: auto;
+    padding: 0 4em;
+    min-width: 200px;
 }
 
 /*---------------------------------------*/
