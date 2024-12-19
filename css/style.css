@@ -460,7 +460,7 @@ header {
     font-family: Unbounded, sans-serif;
     color: white;
     text-align: center;
-    font-size: 32px;
+    font-size: 35px;
     margin: 1em;
 }
 
@@ -635,7 +635,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-width: 300px;
+    min-width: 200px;
     min-height: 400px;
     margin: 15px;
     padding: 15px;
@@ -737,18 +737,18 @@ header {
     #catalog-toggle:checked ~ .catalog-label::after {
         transform: rotate(50deg);
         top: 7px;
-        left: -8px;
+        left: -7px;
     }
     #catalog-toggle:checked ~ .catalog-label::before {
         display: none;
         transform: rotate(-50deg);
         top: 7px;
-        left: 8px;
+        left: 7px;
     }
     #catalog-toggle:checked ~ .catalog-label span {
         transform: rotate(-50deg);
         top: 7px;
-        left: 8px;
+        left: 7px;
     }
 }
 /*---------------------------------------*/
