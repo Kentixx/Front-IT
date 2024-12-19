@@ -482,6 +482,8 @@ header {
     flex-direction: column;
     align-items: center;
     width: auto;
+    position: fixed;
+    top: 50vh;
 }
 
 .catalog-title {
