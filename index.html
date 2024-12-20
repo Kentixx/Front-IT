@@ -49,9 +49,10 @@
                     <h2 id="title_add-text" class="title_text"> Хоть данные музыкальные направления
                     уже являются не совсем современными, миллионы людей по всему миру помогают им держаться на плову и
                     сохранять культовость многих легендарных групп и рок-исполнителей.</h2>
-                    <button class="title_button" type="button" onclick="window.location.href='registration.html'">
+                    <button class="title_button" type="button" onclick="window.location.href='index.html#goods'">
                         Сделать заказ
                     </button>
+                    <img id="rock-logo" src="img/rock-title-logo.png" alt="rock-icon">
                 </div>
             </section>
 
@@ -97,10 +98,10 @@
                                 Басист метал-группы Metallica Клифф Бёртон трагически погиб В афтокатастрофе.
                                 Ранним утром 27 сентября 1986 года на обледеневшей дороге в Швеции гастрольный автобус
                                 группы Metallica перевернулся. Бертона выбросило через окно, после чего автобус придавил
-                                его сверху. Смерть была мгновенной. Когда Джеймсу, Ларсу и Кирку в 2001 году пришлось
-                                снова искать басиста, это напомнило им о тех далеких трагических минутах:
-                                «Мы как будто снова оказались в черной дыре, в которую нас ввергла гибель Клиффа»,
-                                — говорит Хэммет.
+                                его сверху. Смерть была мгновенной. Когда Джеймсу Хэтфилду, Ларсу Ульриху и Кирку Хэммету
+                                в 2001 году пришлось снова искать басиста, это напомнило им о тех далеких
+                                трагических минутах: «Мы как будто снова оказались в черной дыре, в которую нас
+                                ввергла гибель Клиффа», — говорит Хэммет.
                             </div>
                         </div>
                     </div>
@@ -292,7 +293,7 @@
                         </div>
 
                         <button type="submit" class="footer_form-button" id="enter_button">
-                            Войти
+                            Войти (API)
                         </button>
 
                         <div class="register-link">
@@ -312,6 +313,13 @@
                 </ul>
             </div>
         </footer>
+        <div id="modal" class="enter-modal">
+            <div class="modal-content">
+                <span class="close-element">&times;</span>
+                <h2>Rick and Morty - персонажи</h2>
+                <div id="character-cards"></div>
+            </div>
+        </div>
         <script src="js/somescript.js"></script>
     </div>
 </body>

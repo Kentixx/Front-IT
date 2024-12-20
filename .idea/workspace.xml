@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="some changes">
+    <list default="true" id="1903f98c-9815-44f4-b826-df0c68d70f20" name="Changes" comment="final fixes">
+      <change afterPath="$PROJECT_DIR$/img/registration-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rock-title-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/alternative-rock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/somescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/somescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +117,7 @@
       <workItem from="1734264021036" duration="21751000" />
       <workItem from="1734293326914" duration="700000" />
       <workItem from="1734510089531" duration="19830000" />
-      <workItem from="1734634054313" duration="961000" />
+      <workItem from="1734634054313" duration="9507000" />
     </task>
     <task id="LOCAL-00001" summary="2 week">
       <option name="closed" value="true" />
@@ -216,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734629099780</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1734635099808</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734635099808</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +245,7 @@
     <MESSAGE value="another one" />
     <MESSAGE value="new section goods" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="final fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="final fixes" />
   </component>
 </project>

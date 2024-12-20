@@ -1,19 +1,3 @@
-document.getElementById('enter_button').addEventListener('click', function() {
-    alert('Эта функция пока что не работает :((');
-});
-
-/*document.querySelector('article:first-child button').addEventListener('click', function() {
-    alert('Вы нажали кнопку "Записаться"');
-
-});
-
-
-document.querySelector('article#form form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Форма отправлена');
-
-});
-
 async function loadCharacters() {
     const response = await fetch('https://rickandmortyapi.com/api/character');
     const data = await response.json();
@@ -45,24 +29,24 @@ async function loadCharacters() {
         card.appendChild(status);
 
         characterCardsContainer.appendChild(card);
-    });
+    })
 }
 
-const buttonAPI = document.getElementById("buttonForApi");
-const modal = document.getElementById("modal");
-const closeModal = document.querySelector(".close");
+const buttonAPI = document.querySelector(".footer_form-button");
+const modalElement = document.getElementById("modal");
+const closeModal = document.querySelector(".close-element");
 
 buttonAPI.addEventListener("click", function() {
     loadCharacters();
-    modal.style.display = "block";
+    modalElement.style.display = "block";
 });
 
 closeModal.addEventListener("click", function() {
-    modal.style.display = "none";
+    modalElement.style.display = "none";
 });
 
 window.addEventListener("click", function(event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
+    if (event.target === modalElement) {
+        modalElement.style.display = "none";
     }
-});*/
+});
