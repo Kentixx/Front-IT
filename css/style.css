@@ -224,7 +224,7 @@ header {
     background-blend-mode: darken;
     background-color: rgba(9, 0, 41, 0.78);
     background-position: center;
-    padding: 0 2% 4% 2%;
+    padding-bottom: 4%;
     z-index: -5;
     min-width: 200px;
 }
@@ -305,7 +305,7 @@ header {
 
 @media screen and (max-width: 980px) {
     .title {
-        padding: 0 4% 8% 4%;
+        padding-bottom: 8%;
     }
 
     .title_main-name1, .title_main-name2 {
@@ -351,7 +351,7 @@ header {
     background-color: white;
     width: auto;
     height: auto;
-    padding: 0 10%;
+    padding: 0 4%;
     min-width: 200px;
 }
 
@@ -363,7 +363,6 @@ header {
     font-family: Unbounded, sans-serif;
     font-weight: 600;
     margin: .3em .5em;
-    margin-top: 25px;
 }
 
 .facts-items {
@@ -498,7 +497,7 @@ header {
 .goods_content {
     display: flex;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 2%;
 }
 
 .goods_catalog {
@@ -717,8 +716,7 @@ header {
     text-align: center;
     color: white;
     background: rgba(40, 40, 40, 0.7);
-    padding: 5px;
-    padding-bottom: 2px;
+    padding: 5px 5px 2px 5px;
     margin: 5px;
     border-radius: 7px;
 }
