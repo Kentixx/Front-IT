@@ -16,7 +16,6 @@ body {
 .wrapper {
     position: relative;
     min-height: 100%;
-    width: auto;
 }
 
 /*------------------HEADER--------------------*/
@@ -351,7 +350,7 @@ header {
     background-color: white;
     width: auto;
     height: auto;
-    padding: 0 4%;
+    padding: 0 5%;
     min-width: 200px;
 }
 
@@ -456,7 +455,7 @@ header {
 
 @media screen and (max-width: 800px) {
     .facts {
-        padding: 0 10%;
+        padding: 0 3%;
     }
 
     .facts_title {
@@ -497,7 +496,7 @@ header {
 .goods_content {
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 0 1%;
 }
 
 .goods_catalog {
